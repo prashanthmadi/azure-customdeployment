@@ -6,7 +6,7 @@ var imagemin = require('gulp-imagemin');
 
 
 gulp.task('imagemin', function() {
-  var imgSrc = './src/images/**/*',
+  var imgSrc = './public/images/**/*',
       imgDst = './build/images';
 
   gulp.src(imgSrc)
