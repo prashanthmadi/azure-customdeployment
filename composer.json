@@ -1,0 +1,16 @@
+{
+ "repositories": [
+ {
+ "type": "pear",
+ "url": "http://pear.php.net"
+ }
+ ],
+ "require": {
+ "php": ">=5.3.2",
+ "psr/log": "1.0.0",
+ "pear-pear.php.net/PEAR": "1.9.4",
+ "pear-pear.php.net/Mail": "1.2.0",
+ "pear-pear.php.net/Mail_Mime": "1.8.5",
+ "pear-pear.php.net/Net_SMTP": "1.6.1"
+ }
+ }
