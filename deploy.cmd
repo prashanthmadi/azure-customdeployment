@@ -67,7 +67,7 @@ echo installed gulp modules
 call :ExecuteCmd php composer.phar install
 echo installed php plugins using composer
 call .\node_modules\.bin\gulp imagemin
-echo work is done
+echo ran gulp tasks
 popd
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
