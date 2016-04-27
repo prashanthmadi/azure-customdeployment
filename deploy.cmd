@@ -63,7 +63,11 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 
 pushd "%DEPLOYMENT_TARGET%"
 call :ExecuteCmd npm install gulp gulp-changed gulp-imagemin
+echo installed gulp modules
 call :ExecuteCmd php composer.phar install
+echo installed php plugins using composer
+call .\node_modules\.bin\gulp imagemin
+echo ran gulp task
 popd
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
