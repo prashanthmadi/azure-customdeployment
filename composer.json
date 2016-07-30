@@ -1,5 +1,5 @@
- {
-        "require": {        
-            "microsoft/windowsazure": "^0.4"
-        }  
-    }
+{
+    "require": {        
+        "microsoft/windowsazure": "^0.4"
+    }  
+}
