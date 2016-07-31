@@ -121,7 +121,7 @@ fi
 # 4. Install Bower modules
 if [ -e "$DEPLOYMENT_TARGET/bower.json" ]; then
   cd "$DEPLOYMENT_TARGET"
-  eval .\node_modules\.bin\bower install
+  eval ./node_modules/.bin/bower install
   exitWithMessageOnError "bower failed"
   cd - > /dev/null
 fi
@@ -138,7 +138,7 @@ fi
 # 6. Run Gulp Task
 if [ -e "$DEPLOYMENT_TARGET/gulpfile.js" ]; then
   cd "$DEPLOYMENT_TARGET"
-  eval .\node_modules\.bin\gulp imagemin
+  eval ./node_modules/.bin/gulp imagemin
   exitWithMessageOnError "gulp failed"
   cd - > /dev/null
 fi
