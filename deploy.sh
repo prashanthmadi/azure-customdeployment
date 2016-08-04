@@ -121,6 +121,8 @@ fi
 # 4. Install Bower modules
 if [ -e "$DEPLOYMENT_TARGET/bower.json" ]; then
   cd "$DEPLOYMENT_TARGET"
+  eval rm -rf bower_components
+  echo deleted bower components
   eval ./node_modules/.bin/bower install
   exitWithMessageOnError "bower failed"
   cd - > /dev/null
