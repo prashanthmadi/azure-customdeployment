@@ -145,7 +145,7 @@ if [ -e "$DEPLOYMENT_TARGET/gulpfile.js" ]; then
   cd - > /dev/null
 fi
 
-# 6. Run Grunt Task
+# 7. Run Grunt Task
 if [ -e "$DEPLOYMENT_TARGET/Gruntfile.js" ]; then
   cd "$DEPLOYMENT_TARGET"
   eval ./node_modules/.bin/grunt
@@ -153,9 +153,9 @@ if [ -e "$DEPLOYMENT_TARGET/Gruntfile.js" ]; then
   cd - > /dev/null
 fi
 
-#7. Unzip file
+#8. Unzip file
 cd "$DEPLOYMENT_TARGET"
-eval unzip Archive.zip
+eval unzip -o Archive.zip
 cd - > /dev/null
 
 
