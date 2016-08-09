@@ -153,7 +153,7 @@ if [ -e "$DEPLOYMENT_TARGET/Gruntfile.js" ]; then
   cd - > /dev/null
 fi
 
-#8. Unzip file
+#8. Unzip file. you can also use -d option to unzip files into particular folder
 cd "$DEPLOYMENT_TARGET"
 eval unzip -o Archive.zip
 cd - > /dev/null
