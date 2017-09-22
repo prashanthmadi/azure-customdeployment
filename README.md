@@ -13,4 +13,4 @@ At Step 2, Instead of deployment process creating a default script. We can inclu
 5. Run Grunt Tasks
 6. Unzip files
 
-More Info @ http://techiecouple.azurewebsites.net/azure-custom-deployment/
+More Info @ https://ourwayoflyf.com/azure-custom-deployment/
